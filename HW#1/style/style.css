@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+}
+
+.container {
+  width: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header {
+  background-color: #402f1c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 10px;
+}
+
+.header .container span {
+  font-size: 15px;
+  color: white;
+  margin-top: 8px;
+}
+
+.header .container .btn-cart {
+  width: 80px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .product-item {
+  float: left;
+  margin: 5px 30px;
+  border: 1px ridge #616063;
+  border-radius: 12px;
+}
+
+.main .product-item img {
+  border-radius: 12px 12px 0 0;
+}
+
+.main .product-item .product-data {
+  padding: 5px 8px;
+}
+
+.main .product-item .product-data h3, .main .product-item .product-data p, .main .product-item .product-data button {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.main .product-item .product-data h3, .main .product-item .product-data p {
+  margin-left: 3px;
+}
+
+.main .product-item .product-data .buy-btn {
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+}
+/*# sourceMappingURL=style.css.map */
